@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import static Core.WebConnector.driver;
 
+
 public class LoginPage {
 
     private By clickSignIn = By.className("gn-title");

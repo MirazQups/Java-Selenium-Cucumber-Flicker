@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Login User
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.317 s <<< FAILURE! - in Login User
+Check login is Successful with valid credentials(Login User)  Time elapsed: 0.317 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Core.WebConnector.driver" is null
+

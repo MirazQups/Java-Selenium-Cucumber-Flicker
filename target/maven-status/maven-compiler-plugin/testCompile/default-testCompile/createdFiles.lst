@@ -1,0 +1,5 @@
+Runners\Run.class
+StepDefinitions\PhotoShareStep.class
+StepDefinitions\RegisterTest.class
+StepDefinitions\LoginStep.class
+StepDefinitions\UploadPhotoStep.class

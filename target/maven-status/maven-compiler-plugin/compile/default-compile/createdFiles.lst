@@ -1,0 +1,8 @@
+Core\WebConnector.class
+Pages\PhotoShare.class
+Pages\FlickerUploadPhoto.class
+Pages\Page.class
+Pages\RegisterPage.class
+Pages\LoginPage.class
+Base\Base.class
+Core\ConfigUtil.class

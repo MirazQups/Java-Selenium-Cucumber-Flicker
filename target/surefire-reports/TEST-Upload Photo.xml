@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Upload Photo" time="0.306" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\ASUS\.jdks\corretto-16.0.2\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\ASUS\.jdks\corretto-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-16.0.2.7.1"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="F:\Java-Selenium-Cucumber-Flicker"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Java-Selenium-Cucumber-Flicker"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\ASUS\.jdks\corretto-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="16.0.2+7"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="User login and upload a photo" classname="Upload Photo" time="0.306">
+    <error message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;Core.WebConnector.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Core.WebConnector.driver" is null
+</error>
+    <system-out><![CDATA[@upload
+Scenario Outline: User login and upload a photo                                        # src/test/resources/uploadPhoto.feature:15
+  Given user enter email "marazislam8@gmail.com"                                       # StepDefinitions.UploadPhotoStep.user_enter_email(java.lang.String)
+      java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Core.WebConnector.driver" is null
+	at Pages.FlickerUploadPhoto.setEmailId(FlickerUploadPhoto.java:25)
+	at StepDefinitions.UploadPhotoStep.user_enter_email(UploadPhotoStep.java:12)
+	at âœ½.user enter email "marazislam8@gmail.com"(file:///F:/Java-Selenium-Cucumber-Flicker/src/test/resources/uploadPhoto.feature:5)
+
+  And user click email                                                                 # StepDefinitions.UploadPhotoStep.user_click_email()
+  When user Enter password "TestCase0101"                                              # StepDefinitions.UploadPhotoStep.user_enter_password(java.lang.String)
+  And user click on login button                                                       # StepDefinitions.UploadPhotoStep.user_click_on_login_button()
+  And user set photo "C:\Users\S.M.Mohaimanul Islam\Pictures\Saved Pictures/index.jpg" # StepDefinitions.UploadPhotoStep.user_set_photo(java.lang.String)
+  And user click upload btn                                                            # StepDefinitions.UploadPhotoStep.user_click_upload_btn()
+  Then photo uploaded                                                                  # StepDefinitions.UploadPhotoStep.photo_uploaded()
+]]></system-out>
+  </testcase>
+</testsuite>

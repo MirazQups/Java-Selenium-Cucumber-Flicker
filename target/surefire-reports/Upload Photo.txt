@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Upload Photo
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.306 s <<< FAILURE! - in Upload Photo
+User login and upload a photo(Upload Photo)  Time elapsed: 0.306 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Core.WebConnector.driver" is null
+
